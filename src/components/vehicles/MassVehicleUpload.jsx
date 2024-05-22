@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 import { saveAs } from "file-saver";
 import Papa from "papaparse";
-import { useAuth } from "../../contexts/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 import UploadForm from "./UploadForm";
 import VehicleTable from "./VehicleTable";
 

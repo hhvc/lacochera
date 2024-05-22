@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import CancelButton from "../tinyComponents/CancelButton";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import Alert from "../Alert";
+import Alert from "../tinyComponents/Alert";
 
 const CreditProposal = () => {
   // Estado para almacenar los datos del formulario

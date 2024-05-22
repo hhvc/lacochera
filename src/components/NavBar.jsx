@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../assets/imagenesCorporativas/logoVingateNegroRojo.jpg"
+import logo from "../assets/imagenesCorporativas/logoVintageNegroRojo.jpg"
 import { CartWidget } from "./CartWidget";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 function NavBar() {
@@ -126,29 +126,6 @@ function NavBar() {
                 Destacados
               </NavDropdown.Item>
             </NavDropdown>
-
-
-            <NavDropdown title="Agro-vial">
-              {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item
-                as={NavLink}
-                to="category/0kms"
-                className="nav-link"
-              >
-                Maquinaria Agrícola
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                as={NavLink}
-                to="category/usados"
-                className="nav-link"
-              >
-                Maquinaria Vial
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <NavLink to="equines" className="nav-link">
-              Equinos
-            </NavLink>
             <NavLink to="consigna" className="nav-link">
               Vendé con nosotros
             </NavLink>

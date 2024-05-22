@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { collection, getFirestore, addDoc } from "firebase/firestore";
 import OrderForm from "./OrderForm.jsx";
 
-import { CartContext } from "../contexts/CartContext.jsx";
+import { CartContext } from "../context/CartContext.jsx";
 
 const initialValues = {
   name: "",

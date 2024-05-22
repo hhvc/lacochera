@@ -1,9 +1,9 @@
 import { useContext, useState } from "react";
 import { ItemCounter } from "./ItemCounter";
-import { CartContext } from "../contexts/CartContext";
-import { useAuth } from "../contexts/AuthContext";
+import { CartContext } from "../context/CartContext";
+import { useAuth } from "../context/AuthContext";
 import { Card, Button } from "react-bootstrap";
-import ImgXDefecto from "../assets/financiadoLogo.jpg";
+import ImgXDefecto from '../assets/imagenesCorporativas/logoVintageNegroRojo.jpg';
 import { Link } from "react-router-dom";
 
 export const ItemDetail = ({ item }) => {

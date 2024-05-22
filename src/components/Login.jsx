@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useAuth } from "../contexts/AuthContext";
-import Alert from "./Alert";
+import { useAuth } from "../context/AuthContext";
+import Alert from "./tinyComponents/Alert";
 import { useNavigate } from "react-router-dom";
 
 const Login = ({ registro }) => {

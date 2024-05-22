@@ -1,20 +1,20 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ItemListContainer } from "./components/ItemListContainer";
-import { CartProvider } from "./contexts/CartContext";
+import { CartProvider } from "./context/CartContext";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import ProfileEditor from "./components/ProfileEditor";
 // import VehicleForm from "./components/vehicles/VehicleForm";
 import VehicleList from "./components/vehicles/VehicleList";
-import { Error404 } from "./components/Error404";
+import { Error404 } from "./components/tinyComponents/Error404";
 import { ItemDetailContainer } from "./components/ItemDetailContainer";
 import { Cart } from "./components/Cart";
 import CheckOut from "./components/CheckOut";
 import { db } from "./main"; // Importa la instancia de la base de datos
-import { AuthProvider } from "./contexts/AuthContext";
-import SellerDashboard from "./components/SellerDashboard";
-import AdminDashboard from "./components/AdminDashboard";
+import { AuthProvider } from "./context/AuthContext";
+import SellerDashboard from "./components/dashboards/SellerDashboard";
+import AdminDashboard from "./components/dashboards/AdminDashboard";
 import { Consigna } from "./components/Consigna";
 import MassVehicleUpload from "./components/vehicles/MassVehicleUpload";
 import VehicleEdit from "./components/vehicles/VehicleEdit";

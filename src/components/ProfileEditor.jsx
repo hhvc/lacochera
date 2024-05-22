@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../context/AuthContext";
 import {
   getFirestore,
   doc,
@@ -8,8 +8,8 @@ import {
   getDoc,
 } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
-import Alert from "./Alert";
-import ReCaptcha from "./ReCaptcha";
+import Alert from "./tinyComponents/Alert";
+import ReCaptcha from "./tinyComponents/ReCaptcha";
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const ProfileEditor = () => {

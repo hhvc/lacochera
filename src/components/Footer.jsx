@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="container">
+    <Container>
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div className="col-md-4 d-flex align-items-center">
           <NavLink to="" className="navbar-brand">
@@ -13,11 +13,11 @@ function Footer() {
           </NavLink>
         </div>
 
-        {/* <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
+        <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
           <li className="ms-3">
             <a
               className="text-muted"
-              href="https://www.instagram.com/automotoressuperauto/"
+              href="https://www.instagram.com/lacocheraautomotores/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ function Footer() {
           <li className="ms-3">
             <a
               className="text-muted"
-              href="https://www.facebook.com/superautoautomotores"
+              href="https://www.facebook.com/profile.php?id=61559891696064"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,14 +48,14 @@ function Footer() {
               </svg>
             </a>
           </li>
-        </ul> */}
+        </ul>
         <div className="col-md-4 d-flex align-items-center">
           <span className="mb-3 mb-md-0 text-muted">
             &copy; 2024 Web APP development by https://ono.ar
           </span>
         </div>
       </footer>
-    </div>
+    </Container>
   );
 }
 

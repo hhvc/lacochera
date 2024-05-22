@@ -11,9 +11,9 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import { useAuth } from "../../contexts/AuthContext";
-import Alert from "../Alert";
-import ReCaptcha from "../ReCaptcha";
+import { useAuth } from "../../context/AuthContext";
+import Alert from "../tinyComponents/Alert";
+import ReCaptcha from "../tinyComponents/ReCaptcha";
 import CancelButton from "../tinyComponents/CancelButton";
 
 const VehicleEdit = () => {

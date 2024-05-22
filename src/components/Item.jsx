@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button, Card } from "react-bootstrap";
-import ImgXDefecto from "../assets/financiadoLogo.jpg";
+import ImgXDefecto from "../assets/imagenesCorporativas/logoVintageNegroRojo.jpg";
 
 export const Item = ({ item, index }) => {
   const carouselId = `carousel-${index}`; // Genera un identificador único para cada tarjeta
