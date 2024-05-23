@@ -19,3 +19,5 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FINANCIADO_997BA }}
           projectId: financiado-997ba
+          target: lacochera  # Apuntando al sitio correcto
+          expires: 7d  # Manteniendo la versión previa por 7 días
