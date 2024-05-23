@@ -17,7 +17,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FINANCIADO_997BA }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LACOCHERA }}
           projectId: financiado-997ba
           target: lacochera  # Apuntando al sitio correcto
           expires: 7d  # Manteniendo la versión previa por 7 días
