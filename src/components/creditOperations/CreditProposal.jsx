@@ -10,7 +10,7 @@ const CreditProposal = () => {
   const [proposalData, setProposalData] = useState({
     vendedorNombre: "",
     vendedorApellido: "",
-    concesionario: "",
+    concesionario: "La Cochera",
     clienteNombre: "",
     clienteApellido: "",
     clienteCUIL: "",

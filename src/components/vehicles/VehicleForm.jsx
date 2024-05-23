@@ -38,7 +38,7 @@ const VehicleForm = () => {
     kms: 0,
     precio: 0,
     version: "",
-    CONCESIONARIO: "SUPERAUTO",
+    CONCESIONARIO: "La Cochera",
     DOMINIO: "",
     USERCARGA: "",
     IMAGEN: {

@@ -3,8 +3,8 @@ import { ItemListContainer } from "./components/ItemListContainer";
 import { CartProvider } from "./context/CartContext";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Login from "./components/Login";
-import ProfileEditor from "./components/ProfileEditor";
+import Login from "./components/users/Login";
+import ProfileEditor from "./components/users/ProfileEditor";
 // import VehicleForm from "./components/vehicles/VehicleForm";
 import VehicleList from "./components/vehicles/VehicleList";
 import { Error404 } from "./components/tinyComponents/Error404";
@@ -33,7 +33,7 @@ function App() {
           <Routes>
           <Route
               path="/"
-              element={<CreditProposal greeting="Propuesta de Crédito" />}
+              element={<ItemListContainer greeting="Automotores en venta" />}
             />
             <Route
               path="/marketplace"
@@ -102,6 +102,7 @@ function App() {
             <Route path="/consigna" element={<Consigna />} />
             <Route path="/perfil" element={<ProfileEditor />} />
 
+            <Route path="/Credit" element={<CreditProposal/>}/>
             <Route path="/creditlist" element={<CreditProposalList />} />
             <Route path="/editarpropuesta/:id" element={<EditCreditProposal/>} />
 

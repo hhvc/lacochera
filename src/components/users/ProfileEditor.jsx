@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 import {
   getFirestore,
   doc,
@@ -8,8 +8,8 @@ import {
   getDoc,
 } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
-import Alert from "./tinyComponents/Alert";
-import ReCaptcha from "./tinyComponents/ReCaptcha";
+import Alert from "../tinyComponents/Alert";
+import ReCaptcha from "../tinyComponents/ReCaptcha";
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const ProfileEditor = () => {
@@ -26,6 +26,7 @@ const ProfileEditor = () => {
     telefono: "",
     fotoPerfil: "",
     rol:"",
+    concesionario:"La Cochera"
   });
   const [selectedFile, setSelectedFile] = useState(null);
 
