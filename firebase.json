@@ -27,6 +27,7 @@
     "rules": "storage.rules"
   },
   "hosting": {
+    "site": "lacochera",
     "public": "public",
     "ignore": [
       "firebase.json",
