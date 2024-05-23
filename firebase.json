@@ -35,13 +35,6 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ],
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "https://lacochera.com.ar",
-        "type": 301
-      }
     ]
   },
   "emulators": {
